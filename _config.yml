@@ -102,24 +102,34 @@ author:
     - label: "About Me"
       icon: "fas fa-fw fa-link"
       url: "https://abdelrahman898.github.io/aboutme/"
+
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:abdelrahmanelnabawy9@gmail.com"
+
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cyber_anubis"
+      # url: "https://twitter.com/cyber_anubis"
+
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
+
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/nidal-fikri-kamil/"
+      url: "https://www.linkedin.com/in/abdelrahman-el-nabawy-240700187/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/cyber-anubis"
+      url: "https://github.com/Abdelrahman898"
+
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+
+    - label: "Kaggle"
+      icon: "fab fa-fw fa-kaggle"
+      url: "https://www.kaggle.com/abdelrahmanelnabawy"
 
 # Site Footer
 footer:
