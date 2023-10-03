@@ -8,5 +8,5 @@ gem 'jekyll-include-cache'
 
 gem 'minimal-mistakes-jekyll'
 
-gem "activesupport", ">= 6.0.3.1"
+gem "activesupport", "~> 5.2.3"
 
