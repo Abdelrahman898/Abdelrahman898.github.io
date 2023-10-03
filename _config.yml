@@ -12,15 +12,15 @@
 
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Cyber-Anubis"
+title                    : "Abdelrahman El-Nabawy"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Nidal Fikri"
-description              : "Malware Analysis RE"
+name                     : "Abdelrahman El-Nabawy"
+description              : "Data Scientist"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nidal Fikri"
+  name             : "Abdelrahman El-Nabawy"
   avatar           : /assets/images/site_data/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Malware Research Analyst at Recorded Future. Former Trend Micro Intern."
-  location         : "The Netherlands"
-  email            :
+  location         : "Egypt"
+  email            : "abdelrahmanelnabawy9@gmail.com"
   links:
     - label: "About Me"
       icon: "fas fa-fw fa-link"
