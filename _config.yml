@@ -97,7 +97,7 @@ author:
   avatar           : /assets/images/site_data/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Malware Research Analyst at Recorded Future. Former Trend Micro Intern."
   location         : "Egypt"
-  email            : "abdelrahmanelnabawy9@gmail.com"
+  email            : # "abdelrahmanelnabawy9@gmail.com"
   links:
     - label: "About Me"
       icon: "fas fa-fw fa-link"
