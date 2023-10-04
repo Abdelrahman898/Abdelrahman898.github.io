@@ -3,7 +3,7 @@ main:
   - title: "Project"
     url: /categories/#project
   - title: "CV"
-    url: /cv
+    url: /cv/
   #- title: "Binary Exploitation"
    # url: /categories/#binary-exploitation
   #- title: "CTF Writeups"
