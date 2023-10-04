@@ -94,14 +94,14 @@ analytics:
 # Site Author
 author:
   name             : "Abdelrahman El-Nabawy"
-  avatar           : /assets/images/site_data/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/site_data/avatar1.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist and Machine Learning Engineer."
   location         : "Egypt"
   email            : # "abdelrahmanelnabawy9@gmail.com"
   links:
     - label: "About Me"
       icon: "fas fa-fw fa-link"
-      url: "https://abdelrahman898.github.io/aboutme/"
+      # url: "https://abdelrahman898.github.io/aboutme/"
 
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
