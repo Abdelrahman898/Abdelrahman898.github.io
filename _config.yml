@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Abdelrahman El-Nabawy"
   avatar           : /assets/images/site_data/avatar1.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist and Machine Learning Engineer."
+  bio              : "Data Scientist and Machine Learning Engineer, B.Sc. Engineering, Love building products and turning complex data into actionable insights."
   location         : "Egypt"
   email            : # "abdelrahmanelnabawy9@gmail.com"
   links:
@@ -109,7 +109,7 @@ author:
 
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/cyber_anubis"
+      # url: "https://twitter.com/username"
 
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
