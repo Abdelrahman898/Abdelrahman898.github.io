@@ -2,9 +2,9 @@
 title: "Power Prediction"
 classes: wide
 header:
-  teaser: /assets/images/Data Science/Power prediction/burullus-260917-dji-0026-2.png
+  teaser: /assets/images/data-science/Power-prediction/header.png
 ribbon: DodgerBlue
-description: "End to End Data Science Project on power forecasting of a compined power plant."
+description: "End to End Data Science Project on power forecasting of a compined power plant using machine learning algorithms ..."
 categories:
   - Data Science
 toc: true
