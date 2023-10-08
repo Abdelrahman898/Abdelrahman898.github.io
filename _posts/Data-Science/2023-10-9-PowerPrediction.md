@@ -97,7 +97,7 @@ plt.show()
 ```
 
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/densityplot.png"   style="width:400px;height:300px;" <u>Figure 2: Density Plot</u>></center>
+  <center> <img src="/assets/images/data-science/Power-prediction/densityplot.png"   style="width:400px;height:300px;"></center>
 </figure>
 
 As we see that RH is left skewed where median is larger than the mean.
@@ -123,7 +123,7 @@ sns.despine()
 plt.show()
 ```
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/correlation.png"   style="width:400px;height:300px;" <u>Figure 3: Correlation Matrix</u> </center>
+  <center> <img src="/assets/images/data-science/Power-prediction/correlation.png"   style="width:400px;height:300px;" ></center>
 </figure>
 
 - We can see from correlation matrix above that the `v` and `AT` features are highly correlated to the target variable but in negative correlation with `PE`.
@@ -144,7 +144,7 @@ sns.despine()
 plt.show()
 ```
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/linearity.png"   style="width:600px;height:300px;" <u>Figure 4: Linear Relationship</u> </center>
+  <center> <img src="/assets/images/data-science/Power-prediction/linearity.png"   style="width:600px;height:300px;" ></center>
 </figure>
 
 ## Data Cleaning and Preprocessing
@@ -184,7 +184,7 @@ sns.despine()
 plt.show()
 ```
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/boxplot.png"   style="width:600px;height:300px;"  <u>Figure 5: Box Plot For Outliers</u> </center> 
+  <center> <img src="/assets/images/data-science/Power-prediction/boxplot.png"   style="width:600px;height:300px;"></center> 
 </figure>
 
 As we see that only `AP` and `RH` variable has outliers.
@@ -304,7 +304,7 @@ plt.legend(['Train','Validation'])
 ```
 
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/min_samples_split.png"   style="width:600px;height:300px;" <u>Figure 6: Random Forest [min_samples_split]</u> </center>
+  <center> <img src="/assets/images/data-science/Power-prediction/min_samples_split.png"   style="width:600px;height:300px;"></center>
 </figure>
 
 
@@ -334,7 +334,7 @@ plt.plot(RMSE_list_val)
 plt.legend(['Train','Validation'])
 ```
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/max_depth.png"   style="width:600px;height:300px;" <u>Figure 7: Random Forest [max_depth]</u> </center>
+  <center> <img src="/assets/images/data-science/Power-prediction/max_depth.png"   style="width:600px;height:300px;" ></center>
 </figure>
 
 ```python
@@ -363,7 +363,7 @@ plt.legend(['Train','Validation'])
 ```
 
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/n_estimators.png"   style="width:600px;height:300px;" <u>Figure 8: Random Forest [n_estimators]</u> </center>
+  <center> <img src="/assets/images/data-science/Power-prediction/n_estimators.png"   style="width:600px;height:300px;"></center>
 </figure>
 
 
@@ -682,7 +682,7 @@ The best model was the second one with 1 hidden layer of 65 units without regula
 The best model is XGBoost with hyperparameters of learning_rate = 0.1, max_depth = 70, n_estimators = 500. The final model has RMSE of 0.30.
 
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/finalResult.png"   style="width:800px;height:300px;" <u>Figure 9: Final Result</u> </center>
+  <center> <img src="/assets/images/data-science/Power-prediction/finalResult.png"   style="width:800px;height:300px;" ></center>
 </figure>
 
 ## Deployment
@@ -764,7 +764,7 @@ st.markdown('To get started, make sure you have the necessary input feature valu
 ```
 
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/app.png"   style="width:800px;height:300px;" <u>Figure 10: App</u> </center>
+  <center> <img src="/assets/images/data-science/Power-prediction/app.png"   style="width:800px;height:300px;"></center>
 </figure>
 
 # Reference
