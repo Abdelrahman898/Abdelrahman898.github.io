@@ -60,7 +60,7 @@ Features consist of hourly average ambient variables :
 - Net hourly electrical energy output (PE) `420.26 - 495.76 MW`
 
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/data.png"   style="width:200px;height:200px;" </u></center>
+  <center> <img src="/assets/images/data-science/Power-prediction/data.png"   style="width:200px;height:200px;" ></center>
 </figure>
 
 ### Analysis
@@ -73,7 +73,7 @@ $$\mu_i = \frac{1}{m} \sum_{j=1}^m x_i^{(j)}$$
 $$\sigma_i^2 = \frac{1}{m} \sum_{j=1}^m (x_i^{(j)} - \mu_i)^2$$
 
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/data_describe.png"   style="width:400px;height:150px;" </center>
+  <center> <img src="/assets/images/data-science/Power-prediction/data_describe.png"   style="width:400px;height:150px;" ></center>
 </figure>
 
 As we see that the spread of thr AP is the smallest one which is due to the fact that the AP is nearly normaly distributed with the range of 992.89 - 1033.30 milibar.
@@ -97,7 +97,7 @@ plt.show()
 ```
 
 <figure>
-  <center> <img src="/assets/images/data-science/Power-prediction/densityplot.png"   style="width:400px;height:300px;" <u>Figure 2: Density Plot</u></center>
+  <center> <img src="/assets/images/data-science/Power-prediction/densityplot.png"   style="width:400px;height:300px;" <u>Figure 2: Density Plot</u>></center>
 </figure>
 
 As we see that RH is left skewed where median is larger than the mean.
@@ -687,7 +687,7 @@ The best model is XGBoost with hyperparameters of learning_rate = 0.1, max_depth
 
 ## Deployment
 
-Create a ![web application](https://e2edsproject-t583gp5xxy9.streamlit.app/) for the model using Streamlit.
+Create a [web application](https://e2edsproject-t583gp5xxy9.streamlit.app/) for the model using Streamlit.
 
 ```python
 
@@ -767,7 +767,7 @@ st.markdown('To get started, make sure you have the necessary input feature valu
   <center> <img src="/assets/images/data-science/Power-prediction/app.png"   style="width:800px;height:300px;" <u>Figure 10: App</u> </center>
 </figure>
 
-## Reference
+# Reference
 
 - Pınar Tüfekci, Çorlu Faculty of Engineering, Namık Kemal University, TR-59860 Çorlu, Tekirdağ, Turkey Email: ptufekci @ nku.edu.tr
 
