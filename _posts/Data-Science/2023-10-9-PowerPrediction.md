@@ -60,8 +60,9 @@ Features consist of hourly average ambient variables :
 - Exhaust Vacuum (V) in the range `25.36 - 81.56 cm Hg`
 - Net hourly electrical energy output (PE) `420.26 - 495.76 MW`
 
-[![](/assets/images/data-science/Power-prediction/data.png)](/assets/images/data-science/Power-prediction/data.png)
-<font size="3"><u>Figure</u> (2): <u>Data</u>. </font>
+
+[![](/assets/images/data-science/Power-prediction/data1.png)](/assets/images/data-science/Power-prediction/data.png)
+<center><font size="3"><u>Figure</u> (2): <u>Data</u>. </font></center>
 <br>
 
 ### Analysis
@@ -73,7 +74,8 @@ $$\mu_i = \frac{1}{m} \sum_{j=1}^m x_i^{(j)}$$
 - to the variance you will use:
 $$\sigma_i^2 = \frac{1}{m} \sum_{j=1}^m (x_i^{(j)} - \mu_i)^2$$
 
-[![](/assets/images/data-science/Power-prediction/data_describe.png)](/assets/images/data-science/Power-prediction/data_describe.png)
+
+[![](/assets/images/data-science/Power-prediction/data_describe1.png)](/assets/images/data-science/Power-prediction/data_describe.png)
 <center> <font size="3"><u>Figure</u> (3): <u>Data Description</u>. </font></center> 
 <br>
 
@@ -88,9 +90,11 @@ warnings.filterwarnings("ignore")
 # distribution of the variables
 plt.style.use('fivethirtyeight')
 fig, axes = plt.subplots(2, 2, figsize=(16, 14))
+
 for axes, col in zip(axes.flatten(), df[:-1]):
- sns.distplot(df[col], ax=axes, kde=True,
- hist_kws={"alpha": 0.6},color='y').set(title=f"{col} Distribution")
+      sns.distplot(df[col], ax=axes, kde=True,
+      hist_kws={"alpha": 0.6},color='y').set(title=f"{col} Distribution")
+
 plt.tight_layout()
 sns.set(font_scale=1.5)
 sns.despine()
@@ -110,6 +114,7 @@ $$var = \sigma_i^2 = \frac{1}{m} \sum_{j=1}^m (x_i^{(j)} - \mu_i)^2$$
 
 The Correlation Matrix:
 $$cor(x,y) = (\frac{cov(x,y)}{\sqrt(var(x)var(y)})$$
+
 
 ```python
 # correlation matrix
@@ -229,6 +234,7 @@ We can use cross validation to evaluate the model performance and select the bes
 ## Machine Learning Models
 
 The equation for the cost function with multiple variables $J(\mathbf{w},b)$ is:
+
 $$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})^2 \tag{1}$$ 
 where:
 $$ f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = \mathbf{w} \cdot \mathbf{x}^{(i)} + b  \tag{2} $$ 
@@ -525,12 +531,14 @@ RMSE: 0.3815
 We will try to use different architectures of deep neural networks with a `relu`  as a hidden layers. the model with regularization, We will use L2 regularization. We use `Adam` optimizer as the optimizer.
 
 The equation for the cost function with regularization is:
+
 $$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})^2  + \frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2 \tag{1}$$ 
 where:
 $$ f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = \mathbf{w} \cdot \mathbf{x}^{(i)} + b  \tag{2} $$ 
 
 
 Gradient descent with regularization is:
+
 $$\begin{align*}
 &\text{repeat until convergence:} \; \lbrace \\
 &  \; \; \;w_j = w_j -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial w_j} \tag{3}  \; & \text{for j := 0..n-1} \\ 
@@ -685,6 +693,7 @@ The best model was the second one with 1 hidden layer of 65 units without regula
 
 The best model is XGBoost with hyperparameters of learning_rate = 0.1, max_depth = 70, n_estimators = 500. The final model has RMSE of 0.30.
 
+
 [![](/assets/images/data-science/Power-prediction/finalResult.png)](/assets/images/data-science/Power-prediction/finalResult.png)
 <center> <font size="3"><u>Figure</u> (11): <u>Final Result</u>. </font></center> 
 <br>
@@ -692,6 +701,7 @@ The best model is XGBoost with hyperparameters of learning_rate = 0.1, max_depth
 ## Deployment
 
 Create a [web application](https://e2edsproject-t583gp5xxy9.streamlit.app/) for the model using Streamlit.
+
 
 ```python
 
@@ -767,9 +777,11 @@ st.markdown('To get started, make sure you have the necessary input feature valu
 
 ```
 
+
 [![](/assets/images/data-science/Power-prediction/app.png)](/assets/images/data-science/Power-prediction/app.png)
 <center> <font size="3"><u>Figure</u> (12): <u>Web Application</u>. </font></center> 
 <br>
+
 
 # Reference
 
