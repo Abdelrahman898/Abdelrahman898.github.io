@@ -64,6 +64,9 @@ Features consist of hourly average ambient variables :
 <font size="3"><u>Figure</u> (2): <u>Data</u>. </font>
 <br>
 
+<div style="text-align: center;">
+    [![Image Description](/assets/images/data-science/Power-prediction/data.png)](/assets/images/data-science/Power-prediction/data.png)
+</div>
 
 ### Analysis
 
