@@ -61,7 +61,7 @@ Features consist of hourly average ambient variables :
 - Net hourly electrical energy output (PE) `420.26 - 495.76 MW`
 
 [![](/assets/images/data-science/Power-prediction/data.png)](/assets/images/data-science/Power-prediction/data.png)
-<center> <font size="3"><u>Figure</u> (2): <u>Data</u>. </font></center> 
+<font size="3"><u>Figure</u> (2): <u>Data</u>. </font>
 <br>
 
 
