@@ -1,8 +1,8 @@
 ---
-title: "Book RecSys"
+title: "Book Recommendation System"
 classes: wide
 header:
-  teaser: /assets/images/data-analysis/Book-RecSys/header1.png
+  teaser: /assets/images/data-analysis/Book-RecSys/header.png
 ribbon: MidnightBlue
 description: "Building a Book Recommendation Engine using data analysis techniques and feature engineering..."
 categories:
@@ -20,6 +20,6 @@ Recommendation Types:
 
   - There are two classes of Collaborative Filtering:
 
-    - User-based, which measures the similarity between target users and other users,if number of user is limited(like message you see 'user who select this item is also select the-following items').
+    - User-based, which measures the similarity between target users and other users,if number of user is limited (like message you see 'user who select this item is also select the-following items').
 
     - Item-based, which measures the similarity between the items that target users rate or interact with and other items, if number of items is limited.
