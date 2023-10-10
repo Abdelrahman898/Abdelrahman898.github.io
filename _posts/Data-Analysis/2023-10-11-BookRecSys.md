@@ -1,5 +1,5 @@
 ---
-title: "Book Recommendation System"
+title: "Book RecSys"
 classes: wide
 header:
   teaser: /assets/images/data-analysis/Book-RecSys/header.png
