@@ -2,7 +2,7 @@
 title: "Book RecSys"
 classes: wide
 header:
-  teaser: /assets/images/data-analysis/Book-RecSys/header.png
+  teaser: /assets/images/data-analysis/Book-RecSys/header1.png
 ribbon: MidnightBlue
 description: "Building a Book Recommendation Engine using data analysis techniques and feature engineering..."
 categories:
