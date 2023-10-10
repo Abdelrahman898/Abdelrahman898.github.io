@@ -23,3 +23,4 @@ Recommendation Types:
     - User-based, which measures the similarity between target users and other users,if number of user is limited (like message you see 'user who select this item is also select the-following items').
 
     - Item-based, which measures the similarity between the items that target users rate or interact with and other items, if number of items is limited.
+
