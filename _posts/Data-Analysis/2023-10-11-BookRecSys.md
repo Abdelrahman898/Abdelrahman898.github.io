@@ -4,7 +4,7 @@ classes: wide
 header:
   teaser: /assets/images/data-analysis/Book-RecSys/header.png
 ribbon: MidnightBlue
-description: "Building a Book Recommendation Engine using data analysis techniques and feature engineering..."
+description: "Building a Book Recommendation Engine using data analysis techniques and feature engineering techniques with Neighbour algorithm..."
 categories:
   - Data Analysis
 toc: true
