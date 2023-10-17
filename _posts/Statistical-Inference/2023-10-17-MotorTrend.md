@@ -25,7 +25,7 @@ They are particularly interested in the following two questions:
 
 After concluding the analysis, the following points can be made:
 
--   Manual transmission y for MPG, based on the evidence from the box plot, as well as the simple linear regression model.
+-   Manual transmission better for MPG, based on the evidence from the box plot, as well as the simple linear regression model.
 
 -   With a 95% confidence interval, we estimate the true difference between automatic and manual cars to be between 3.2 and 11.3
 
@@ -77,7 +77,7 @@ ggplot(mtcars, aes(factor(am, labels = c("automatic", "manual")), mpg, fill = fa
     labs(x = "Transmission type", y="Miles per gallon (MPG)")
 ```
 
-[![](/assets/images/statistical-inference/Motor-Trend/boxplot-1.png)](/assets/images/statistical-inference/Motor-Trend/boxplot-1.png)
+[![](/assets/images/statistical-inference/Motor-Trend/boxplot.png)](/assets/images/statistical-inference/Motor-Trend/boxplot.png)
 <center> <font size="3"><u>Figure</u> (2): <u>Box Plot For Transmission Type</u>. </font></center> 
 <br>
 
@@ -109,7 +109,7 @@ Since we'll be fitting regression models on this data, it's useful to look pairw
 ggpairs(mtcars, lower = list(continuous = "smooth"))
 ```
 
-[![](/assets/images/statistical-inference/Motor-Trend/ggpair-1.png)](/assets/images/statistical-inference/Motor-Trend/ggpair-1.png)
+[![](/assets/images/statistical-inference/Motor-Trend/ggpair.png)](/assets/images/statistical-inference/Motor-Trend/ggpair.png)
 <center> <font size="3"><u>Figure</u> (3): <u>Pairwise Scatter Plot</u>. </font></center>
 <br>
 
@@ -311,7 +311,7 @@ par(mfrow = c(2, 2))
 plot(bestModel)
 ```
 
-[![](/assets/images/statistical-inference/Motor-Trend/reg_diag_plot-1.png)](/assets/images/statistical-inference/Motor-Trend/reg_diag_plot-1.png)
+[![](/assets/images/statistical-inference/Motor-Trend/reg_diag_plot.png)](/assets/images/statistical-inference/Motor-Trend/reg_diag_plot.png)
 <center> <font size="3"><u>Figure</u> (6): <u>Residual Diagnostics</u>. </font></center>
 <br>
 
@@ -322,3 +322,14 @@ plot(bestModel)
 -   Scale-Location = plots standardized residuals vs fitted values → similar residual plot, used to detect patterns in residuals. and we don't see any patterns in the plot.
 
 -   Residuals vs Leverage = plots cooks distances comparison of fit at that point vs potential for influence of that point → used to detect any points that have substantial influence on the regression model. Our residual vs leverage plot don't contain any systematic patterns.
+
+# Conclusions
+
+
+-   Manual transmission better for MPG.
+
+-   Simple linear model with transmission type as predictor shows us that the manual transmission cars have 7.24 (+/- 3.60) MPG more in fuel efficiency than automatic cars.
+
+-   The predictor variables `wt`, `qsec` and `am` **best predict** mpg, explaining roughly 85% of it's variation.
+
+-   Multivariate regression model tells us that, while adjusting for the other predictor variables `wt` and `qsec`, manual transmission cars on average have 2.94 MPG (+/- 2.89) more in fuel efficiency than automatic cars.
