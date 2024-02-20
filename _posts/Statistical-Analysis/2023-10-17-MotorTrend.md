@@ -2,11 +2,11 @@
 title: "Motor Trend Data Regression Analysis"
 classes: wide
 header:
-  teaser: /assets/images/statistical-inference/Motor-Trend/header.png
+  teaser: /assets/images/statistical-analysis/Motor-Trend/header.png
 ribbon: ForestGreen
 description: "Use Statistical Inference techniques to perform a regression analysis on the Motor Trend Data..."
 categories:
-  - Statistical Inference
+  - Statistical Analysis
 toc: true
 ---
 
