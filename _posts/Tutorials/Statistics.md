@@ -3,7 +3,7 @@ title: "Introduction to Statistics"
 classes: wide
 header:
   teaser: /assets/images/tutorials/Introduction-to-Statistics/header.png
-ribbon: Brown
+ribbon: red
 description: "Introduction to Descriptive and Inferential Statistics Tutorial With Python..."
 categories:
   - Tutorials
