@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Abdelrahman El-Nabawy"
   avatar           : /assets/images/site_data/avatar1.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist and Machine Learning Engineer, B.Sc. Engineering, Love building products and turning complex data into actionable insights."
+  bio              : "Data Scientist and Machine Learning Engineer, B.Sc. Engineering, Turning complex data into actionable insights."
   location         : "Egypt"
   email            : # "abdelrahmanelnabawy9@gmail.com"
   links:
@@ -201,6 +201,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
 
 
 # Markdown Processing
