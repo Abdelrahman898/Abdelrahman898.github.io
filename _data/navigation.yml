@@ -3,7 +3,7 @@ main:
   - title: "Project"
     url: /categories/#project
   - title: "CV"
-    url: https://drive.google.com/file/d/18_72txESzn_Rm37pMSeIShsAznkZrOsu/view?usp=sharing
+    url: #https://drive.google.com/file/d/18_72txESzn_Rm37pMSeIShsAznkZrOsu/view?usp=sharing
 
   #- title: "Binary Exploitation"
    # url: /categories/#binary-exploitation
